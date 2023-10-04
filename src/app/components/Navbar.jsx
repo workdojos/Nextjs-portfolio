@@ -8,15 +8,15 @@ import MenuOverlay from "./MenuOverlay";
 const navLinks = [
   {
     title: "About",
-    path: "https://portfolio.admins.live#about",
+    path: "https://portfolio.admins.live/#about",
   },
   {
     title: "Projects",
-    path: "https://portfolio.admins.live#projects",
+    path: "https://portfolio.admins.live/#projects",
   },
   {
     title: "Contact",
-    path: "https://portfolio.admins.live#contact",
+    path: "https://portfolio.admins.live/#contact",
   },
 ];
 
