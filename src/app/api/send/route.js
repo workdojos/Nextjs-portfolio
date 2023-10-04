@@ -10,7 +10,7 @@ export async function POST() {
       from: 'Dojos <support@workdojos.com>',
       to: ['support@workdojos.com'],
       subject: 'Thanks!',
-    ##  react: EmailTemplate({ firstName: 'John' }),
+       ),
     });
 
     return NextResponse.json(data);
