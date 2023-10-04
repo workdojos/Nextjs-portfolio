@@ -9,7 +9,7 @@ export async function POST() {
     const data = await resend.emails.send({
       from: 'Dojos <support@workdojos.com>',
       to: ['support@workdojos.com'],
-      subject: 'Thanks!',
+      subject: 'Thanks!',)
     });
 
     return NextResponse.json(data);
