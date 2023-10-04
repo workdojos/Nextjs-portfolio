@@ -10,7 +10,6 @@ export async function POST() {
       from: 'Dojos <support@workdojos.com>',
       to: ['support@workdojos.com'],
       subject: 'Thanks!',
-       ),
     });
 
     return NextResponse.json(data);
