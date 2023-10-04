@@ -9,7 +9,8 @@ export async function POST() {
     const data = await resend.emails.send({
       from: 'Dojos <support@workdojos.com>',
       to: ['support@workdojos.com'],
-      subject: 'Thanks!',)
+      subject: 'Thanks!',
+      react: EmailTemplate({ firstName: 'John' }),
     });
 
     return NextResponse.json(data);
