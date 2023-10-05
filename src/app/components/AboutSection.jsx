@@ -9,12 +9,13 @@ const TAB_DATA = [
     id: "skills",
     content: (
       <ul className="list-disc pl-2">
+        <li>Digital Marketing</li>
+        <li>Web Development</li>
+        <li>AI Automation</li>        
         <li>Marketing Automation</li>
-        <li>AI Automation</li>
-        <li>Prototyping</li>
         <li>Business Development</li>
         <li>Project Management</li>
-        <li>SaaS / HaaS</li>
+        <li>SaaS / HaaS / Retail</li>        
       </ul>
     ),
   },
@@ -57,12 +58,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a marketer and self-taught web developer.  I have on-the-ground
-            experience across 3 continents and I&apos;m a huge fan of open-source
-            technology.  I can add value to your organization across multiple
-            fronts.  I&apos;ve led co-marketing efforts with large software development
-            teams and helped some of the largest companies pilot and execute on
-            new ideas.
+            I&apos;m a marketer, project manager, and self-taught web developer.
+            I have on-the-ground experience across 3 continents and I&apos;m a huge
+            fan of open-source technology.  I can add value to your organization across
+            multiple fronts.  I&apos;ve led co-marketing efforts with large software development
+            teams and helped some of the largest companies pilot and execute on new ideas.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
