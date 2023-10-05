@@ -110,25 +110,6 @@ const ProjectsSection = () => {
           name="Retail"
           isSelected={tag === "Retail"}
         />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="APIs"
-          isSelected={tag === "APIs"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Wordpress"
-          isSelected={tag === "Wordpress"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="React"
-          isSelected={tag === "React"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Next.js"
-          isSelected={tag === "Next.js"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
