@@ -8,7 +8,7 @@ const projectsData = [
   {
     id: 1,
     title: "React Portfolio Website",
-    description: "This is the site you're looking at.  Built with the latest tech including Next.js, ",
+    description: "This is the site right here.  Built with the latest open-source tech including Next.js.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -34,8 +34,8 @@ const projectsData = [
   },
   {
     id: 4,
-    title: "Workmates.Live "Hive"",
-    description: "100+ hiring hubs or "hives" facilitating community and collaboration for job seekers.",
+    title: "Workmates.Live Hiring Hives",
+    description: "100+ hiring hubs or hives facilitating community and collaboration for job seekers.",
     image: "/images/projects/4.png",
     tag: ["All", "Mobile"],
     gitUrl: "/",
@@ -52,7 +52,7 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "FedEx's Largest Digital Transformation to Date",
+    title: "FedEx Largest Digital Transformation to Date",
     description: "Starting at PI-0 and the launch of the FedEx API Factory.",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
