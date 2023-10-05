@@ -16,7 +16,6 @@ const achievementsList = [
     postfix: "+",
   },
   {
-    prefix: "~",
     metric: "Countries",
     value: "10",
   },

@@ -53,7 +53,7 @@ const AboutSection = () => {
   return (
     <section className="text-white" id="about">
       <div className="md:grid md:grid-cols-2 gap-8 items-center py-8 px-4 xl:gap-16 sm:py-16 xl:px-16">
-        <Image src="/images/about-image.png" width={500} height={500} />
+        <Image style={{ borderRadius: 16}}src="/images/about-image.png" width={500} height={500}   />
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
@@ -62,7 +62,7 @@ const AboutSection = () => {
             technology.  I can add value to your organization across multiple
             fronts.  I&apos;ve led co-marketing efforts with large software development
             teams and helped some of the largest companies pilot and execute on
-            new ideas.  I know what it&apos;s like to 
+            new ideas.
           </p>
           <div className="flex flex-row justify-start mt-8">
             <TabButton
