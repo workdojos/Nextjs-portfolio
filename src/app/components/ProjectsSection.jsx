@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     tag: ["All", "Web", "Travel", "Affiliate", "Wordpress"],
     gitUrl: "https://traveler.town",
-    previewUrl: "https://portfolio.admins.live/images/projects/1.png",
+    previewUrl: "https://portfolio.admins.live/images/projects/2.png",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["All", "Web", "APIs", "Docker"],
     gitUrl: "https://og.admins.live",
-    previewUrl: "https://portfolio.admins.live/images/projects/1.png",
+    previewUrl: "https://portfolio.admins.live/images/projects/3.png",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["All", "Web", "Wordpress"],
     gitUrl: "https://workmates.live/marketplace",
-    previewUrl: "https://portfolio.admins.live/images/projects/1.png",
+    previewUrl: "https://portfolio.admins.live/images/projects/4.png",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Retail", "SaaS", "HaaS"],
     gitUrl: "https://webjedi.live/microsoft/",
-    previewUrl: "https://portfolio.admins.live/images/projects/1.png",
+    previewUrl: "https://portfolio.admins.live/images/projects/5.png",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/projects/6.png",
     tag: ["All", "IT", "APIs"],
     gitUrl: "https://webjedi.live/fedex/",
-    previewUrl: "https://portfolio.admins.live/images/projects/1.png",
+    previewUrl: "https://portfolio.admins.live/images/projects/6.png",
   },
 ];
 
@@ -97,8 +97,38 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="HaaS"
+          isSelected={tag === "HaaS"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="SaaS"
+          isSelected={tag === "SaaS"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Retail"
+          isSelected={tag === "Retail"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="APIs"
+          isSelected={tag === "APIs"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Wordpress"
+          isSelected={tag === "Wordpress"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="React"
+          isSelected={tag === "React"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Next.js"
+          isSelected={tag === "Next.js"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
