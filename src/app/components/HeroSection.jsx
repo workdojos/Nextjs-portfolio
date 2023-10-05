@@ -41,7 +41,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I'm a big idea guy with the tech chops to back it up.
+            I&apos;m a big idea guy with the tech chops to back it up.
           </p>
           <div>
             <Link
