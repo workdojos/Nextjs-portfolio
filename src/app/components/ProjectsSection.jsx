@@ -107,7 +107,7 @@ const ProjectsSection = () => {
         />
 
       </div>
-      <div className="text-white flex flex-flow justify-center items-center gap-2 py-6">
+      <div className="text-white flex flex-flow justify-center items-center gap-2 pb-16">
         <ProjectTag
           onClick={handleTagChange}
           name="Retail"
