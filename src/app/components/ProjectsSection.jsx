@@ -19,7 +19,7 @@ const projectsData = [
     title: "Virtual Tour Website",
     description: "A Viator affiliate site built with Wordpress that includes 1000+ curated virtual tours from all over the world and links to Viator tours in every country.",
     image: "/images/projects/2.png",
-    tag: ["All", "Web", "Travel"],
+    tag: ["All", "Web", "Travel", "Wordpress"],
     gitUrl: "https://traveler.town",
     previewUrl: "https://portfolio.admins.live/images/projects/2.png",
   },
@@ -37,7 +37,7 @@ const projectsData = [
     title: "Workmates.Live Hiring Hives",
     description: "100+ hiring hubs or hives facilitating community and collaboration for job seekers.",
     image: "/images/projects/4.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "Wordpress"],
     gitUrl: "https://workmates.live/marketplace",
     previewUrl: "https://portfolio.admins.live/images/projects/4.png",
   },
@@ -84,7 +84,7 @@ const ProjectsSection = () => {
       <h2 className="text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12">
         My Projects
       </h2>
-      <div className="text-white flex flex-row justify-center items-center gap-2 py-6">
+      <div className="text-white flex flex-flow justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="All"
@@ -105,12 +105,26 @@ const ProjectsSection = () => {
           name="SaaS"
           isSelected={tag === "SaaS"}
         />
+
+      </div>
+      <div className="text-white flex flex-flow justify-center items-center gap-2 py-6">
         <ProjectTag
           onClick={handleTagChange}
           name="Retail"
           isSelected={tag === "Retail"}
         />
-      </div>
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Wordpress"
+          isSelected={tag === "Wordpress"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Travel"
+          isSelected={tag === "Travel"}
+        />
+
+      </div>    
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
         {filteredProjects.map((project, index) => (
           <motion.li
@@ -132,6 +146,7 @@ const ProjectsSection = () => {
         ))}
       </ul>
     </section>
+
   );
 };
 
