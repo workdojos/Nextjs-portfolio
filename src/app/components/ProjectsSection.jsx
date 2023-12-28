@@ -21,7 +21,7 @@ const projectsData = [
     image: "/images/projects/2.png",
     tag: ["All", "Web", "Travel"],
     gitUrl: "https://traveler.town",
-    previewUrl: "https://portfolio.admins.live/images/projects/2.png",
+    previewUrl: "/images/projects/2.png",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const projectsData = [
     image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://og.admins.live",
-    previewUrl: "https://portfolio.admins.live/images/projects/3.png",
+    previewUrl: "/images/projects/3.png",
   },
   {
     id: 4,
@@ -39,7 +39,7 @@ const projectsData = [
     image: "/images/projects/4.png",
     tag: ["All", "Web"],
     gitUrl: "https://workmates.live/marketplace",
-    previewUrl: "https://portfolio.admins.live/images/projects/4.png",
+    previewUrl: "/images/projects/4.png",
   },
   {
     id: 5,
@@ -48,7 +48,7 @@ const projectsData = [
     image: "/images/projects/5.png",
     tag: ["All", "Retail", "SaaS", "HaaS"],
     gitUrl: "https://www.microsoft.com/en-us/store/b/surface-all-access-for-business",
-    previewUrl: "https://portfolio.admins.live/images/projects/5.png",
+    previewUrl: "/images/projects/5.png",
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const projectsData = [
     image: "/images/projects/6.png",
     tag: ["All", "Agile"],
     gitUrl: "#",
-    previewUrl: "https://portfolio.admins.live/images/projects/6.png",
+    previewUrl: "/images/projects/6.png",
   },
   {
     id: 7,
@@ -66,7 +66,7 @@ const projectsData = [
     image: "/images/projects/vantajs small.png",
     tag: ["All", "Web"],
     gitUrl: "https://players.workmates.live",
-    previewUrl: "https://portfolio.admins.live/images/projects/vantajs small.png",
+    previewUrl: "/images/projects/vantajs small.png",
   },
   {
     id: 8,
@@ -75,7 +75,7 @@ const projectsData = [
     image: "/images/projects/dojos new small laptop.png",
     tag: ["All", "Web"],
     gitUrl: "https://workdojos.com",
-    previewUrl: "https://portfolio.admins.live/images/projects/4.png",
+    previewUrl: "/images/projects/4.png",
   },
   {
     id: 9,
@@ -84,7 +84,7 @@ const projectsData = [
     image: "/images/projects/dojofans small.png",
     tag: ["All", "Video", "AI"],
     gitUrl: "https://dojofans.com",
-    previewUrl: "https://portfolio.admins.live/images/projects/dojofans small.png",
+    previewUrl: "/images/projects/dojofans small.png",
   },
   {
     id: 10,
@@ -93,7 +93,7 @@ const projectsData = [
     image: "/images/projects/Legislators.Live small.png",
     tag: ["All", "Agile"],
     gitUrl: "https://legislators.live",
-    previewUrl: "https://portfolio.admins.live/images/projects/Legislators.Live small.png",
+    previewUrl: "/images/projects/Legislators.Live small.png",
   },
 ];
 
