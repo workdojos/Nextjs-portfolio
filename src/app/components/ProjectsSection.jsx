@@ -62,7 +62,7 @@ const projectsData = [
   {
     id: 7,
     title: "Vanta.js",
-    description: "Fully-contained website and leaderboard demo built with Vanta.js.,
+    description: "Fully-contained website and leaderboard demo built with Vanta.js.",
     image: "/images/projects/vantajs small.png",
     tag: ["All", "Web"],
     gitUrl: "https://players.workmates.live",
