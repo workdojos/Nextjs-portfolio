@@ -80,7 +80,7 @@ const projectsData = [
   {
     id: 9,
     title: "Dojofans",
-    description: "End-t-end process for AI content creation to image generation to text-to-speech to animation.",
+    description: "End-to-end process through 6 levels of AI for image generation, text-to-speech, and animation.",
     image: "/images/projects/9.png",
     tag: ["All", "Video", "AI"],
     gitUrl: "https://dojofans.com",
@@ -91,16 +91,16 @@ const projectsData = [
     title: "Fantasy Congress game concept",
     description: "Concept for a revised version of Fantasy Congress from 2006.",
     image: "/images/projects/10.png",
-    tag: ["All", "Gaming", "AI"],
+    tag: ["All", "AI"],
     gitUrl: "https://legislators.live",
     previewUrl: "/images/projects/10.png",
   },
   {
     id: 11,
     title: "Moodle Learning Management System",
-    description: "Concept for a revised version of Fantasy Congress from 2006.",
+    description: "AI-powered education, entirely open-source.",
     image: "/images/projects/11.png",
-    tag: ["All", "Gaming", "AI"],
+    tag: ["All", "Education", "AI"],
     gitUrl: "https://learning.workdojos.com",
     previewUrl: "/images/projects/11.png",
   },
@@ -109,7 +109,7 @@ const projectsData = [
     title: "Ghost blog",
     description: "Modern framework for blogging with subs and payments built in.",
     image: "/images/projects/12.png",
-    tag: ["All", "Education", "AI"],
+    tag: ["All", "Web", "AI"],
     gitUrl: "https://blog.workdojos.com",
     previewUrl: "/images/projects/12.png",
   },
@@ -151,7 +151,7 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Gaming"
+          name="Education"
           isSelected={tag === "Gaming"}
         />
         <ProjectTag
@@ -176,11 +176,6 @@ const ProjectsSection = () => {
           onClick={handleTagChange}
           name="Travel"
           isSelected={tag === "Travel"}
-        />
-        <ProjectTag
-          onClick={handleTagChange}
-          name="Education"
-          isSelected={tag === "Education"}
         />
 
       </div>    
