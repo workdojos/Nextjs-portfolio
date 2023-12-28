@@ -28,7 +28,7 @@ const projectsData = [
     title: "Dashboards",
     description: "100+ individual web apps embedded into a single dashboard.",
     image: "/images/projects/3.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "AI"],
     gitUrl: "https://og.admins.live",
     previewUrl: "/images/projects/3.png",
   },
@@ -46,7 +46,7 @@ const projectsData = [
     title: "Microsoft:  Hardware-as-a-Service",
     description: "Counterpart to the Surface Membership program, I worked with a small team agency-side to bring HaaS to life for OEM partners around the world.",
     image: "/images/projects/5.png",
-    tag: ["All", "Retail", "SaaS", "HaaS"],
+    tag: ["All", "Retail", "Agile"],
     gitUrl: "https://www.microsoft.com/en-us/store/b/surface-all-access-for-business",
     previewUrl: "/images/projects/5.png",
   },
@@ -64,7 +64,7 @@ const projectsData = [
     title: "Vanta.js",
     description: "Fully-contained website and leaderboard demo built with Vanta.js (takes 10-20 seconds to load).",
     image: "/images/projects/7a.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Web", "AI"],
     gitUrl: "https://players.workmates.live",
     previewUrl: "/images/projects/7a.png",
   },
@@ -91,9 +91,27 @@ const projectsData = [
     title: "Fantasy Congress game concept",
     description: "Concept for a revised version of Fantasy Congress from 2006.",
     image: "/images/projects/10.png",
-    tag: ["All", "Agile"],
+    tag: ["All", "Gaming", "AI"],
     gitUrl: "https://legislators.live",
     previewUrl: "/images/projects/10.png",
+  },
+  {
+    id: 11,
+    title: "Moodle Learning Management System",
+    description: "Concept for a revised version of Fantasy Congress from 2006.",
+    image: "/images/projects/11.png",
+    tag: ["All", "Gaming", "AI"],
+    gitUrl: "https://learning.workdojos.com",
+    previewUrl: "/images/projects/11.png",
+  },
+  {
+    id: 12,
+    title: "Ghost blog",
+    description: "Modern framework for blogging with subs and payments built in.",
+    image: "/images/projects/12.png",
+    tag: ["All", "Education", "AI"],
+    gitUrl: "https://blog.workdojos.com",
+    previewUrl: "/images/projects/12.png",
   },
 ];
 
@@ -133,13 +151,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="HaaS"
-          isSelected={tag === "HaaS"}
+          name="Gaming"
+          isSelected={tag === "Gaming"}
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="SaaS"
-          isSelected={tag === "SaaS"}
+          name="Video"
+          isSelected={tag === "Video"}
         />
 
       </div>
@@ -151,13 +169,18 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Wordpress"
-          isSelected={tag === "Wordpress"}
+          name="AI"
+          isSelected={tag === "AI"}
         />
         <ProjectTag
           onClick={handleTagChange}
           name="Travel"
           isSelected={tag === "Travel"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="Education"
+          isSelected={tag === "Education"}
         />
 
       </div>    
