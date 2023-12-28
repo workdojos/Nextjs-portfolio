@@ -88,8 +88,8 @@ const projectsData = [
   },
   {
     id: 10,
-    title: "Legislators.Live game concept",
-    description: "Concept for a revised version of Fantasy Congress,"
+    title: "Fantasy Congress game concept",
+    description: "Concept for a revised version of Fantasy Congress from 2006.",
     image: "/images/projects/Legislators.Live small.png",
     tag: ["All", "Agile"],
     gitUrl: "https://legislators.live",
