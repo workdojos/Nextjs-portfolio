@@ -11,6 +11,7 @@ const projectsData = [
     description: "This is the site right here.  Built with the latest open-source tech including Next.js.",
     image: "/images/projects/1.png",
     tag: ["All", "Web"],
+    gitUrl: "https://jay.workmates.live",
     previewUrl: "/images/1.png",
   },
   {
@@ -46,6 +47,7 @@ const projectsData = [
     description: "Counterpart to the Surface Membership program, I worked with a small team agency-side to bring HaaS to life for OEM partners around the world.",
     image: "/images/projects/5.png",
     tag: ["All", "Retail", "Agile"],
+    gitUrl: "",
     previewUrl: "/images/projects/5.png",
   },
   {
@@ -54,6 +56,7 @@ const projectsData = [
     description: "Starting at PI-0 and the launch of the FedEx API Factory.",
     image: "/images/projects/6.png",
     tag: ["All", "Agile"],
+    gitUrl: "",
     previewUrl: "/images/projects/6.png",
   },
   {
