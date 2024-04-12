@@ -20,7 +20,7 @@ const projectsData = [
     description: "A Viator affiliate site built with Wordpress that includes 1000+ curated virtual tours from all over the world and links to Viator tours in every country.",
     image: "/images/projects/2.png",
     tag: ["All", "Web", "Travel"],
-    gitUrl: "https://traveler.town",
+    gitUrl: "https://travelagent.live",
     previewUrl: "/images/projects/2.png",
   },
   {
