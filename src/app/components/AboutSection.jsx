@@ -58,10 +58,11 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I&apos;m a marketer, project manager, and self-taught web developer.
-            I have on-the-ground experience across 3 continents and I&apos;m a huge
-            fan of open-source technology.  I can add value to your organization across
-            multiple fronts.  I&apos;ve led co-marketing efforts with large software development
+            I&apos;m a digital marketer, project manager, self-taught web developer, and entrepreneur.
+            I&apos;m a huge fan of open-source technology and self-hosting!
+            I help teams present, prototype, and project manage all things digital.
+            I help businesses get maximum value from cloud compute and build collaborative platforms on the fly.
+            I&apos;ve led co-marketing efforts with large software development
             teams and helped some of the largest companies pilot and execute on new ideas.
           </p>
           <div className="flex flex-row justify-start mt-8">

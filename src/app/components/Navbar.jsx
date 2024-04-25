@@ -15,6 +15,18 @@ const navLinks = [
     path: "http://jay.workmates.live/#projects",
   },
   {
+    title: "WorkDojos",
+    path: "http://workdojos.com",
+  },
+  {
+    title: "Blog",
+    path: "http://blog.workdojos.com",
+  },
+  {
+    title: "Chat",
+    path: "http://chat.workmates.live/channel/support",
+  },
+  {
     title: "Contact",
     path: "http://jay.workmates.live/#contact",
   },
