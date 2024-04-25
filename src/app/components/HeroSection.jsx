@@ -39,7 +39,7 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            I&apos;m a big idea guy and a self-taught developer.
+            I like helping others augment their tech stack with free and open-source technology (and hiking!).
           </p>
           <div>
             <Link

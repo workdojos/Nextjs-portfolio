@@ -29,7 +29,7 @@ const projectsData = [
     description: "100+ individual web apps embedded into a single dashboard.",
     image: "/images/projects/3.png",
     tag: ["All", "Web", "AI"],
-    gitUrl: "https://og.admins.live",
+    gitUrl: "https://dashboards.workdojos.com",
     previewUrl: "/images/projects/3.png",
   },
   {
